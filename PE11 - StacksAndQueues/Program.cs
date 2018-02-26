@@ -12,4 +12,33 @@ namespace PE11___StacksAndQueues
         {
         }
     }
+
+    class GameStack : IStack
+    {
+
+    }
+
+    class GameQueue : IQueue
+    {
+
+    }
+
+    interface IStack
+    {
+        bool IsEmpty { get; }
+        int Count { get; }
+        void Push(String s);
+        String Pop();
+        String Peek();
+    }
+
+    interface IQueue
+    {
+        bool IsEmpty { get; }
+        int Count { get; }
+        void Enqueue(String s);
+        String Dequeue();
+        String Peek();
+    }
+
 }
