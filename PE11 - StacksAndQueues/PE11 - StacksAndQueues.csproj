@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameQueue.cs" />
+    <Compile Include="GameStack.cs" />
+    <Compile Include="IQueue.cs" />
+    <Compile Include="IStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
